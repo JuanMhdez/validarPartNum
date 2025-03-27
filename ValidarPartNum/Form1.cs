@@ -99,7 +99,7 @@ namespace ValidarPartNum
                 }
                 else
                 {
-                    mostrarMensaje("Campo vacio", statusMensaje);
+                    mostrarMensaje("Campo vacio favor de llenar los campos", statusMensaje);
 
                 }
 

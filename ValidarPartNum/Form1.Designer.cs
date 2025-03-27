@@ -35,12 +35,12 @@
             this.cbxPartNum = new System.Windows.Forms.ComboBox();
             this.cbxWo = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.txtItem = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -119,6 +119,7 @@
             // 
             this.cbxWo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cbxWo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxWo.Enabled = false;
             this.cbxWo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxWo.FormattingEnabled = true;
             this.cbxWo.Location = new System.Drawing.Point(555, 99);
@@ -138,18 +139,6 @@
             this.label3.Size = new System.Drawing.Size(187, 58);
             this.label3.TabIndex = 4;
             this.label3.Text = "Validar Número de parte:";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tableLayoutPanel1.SetColumnSpan(this.panel1, 5);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 311);
-            this.panel1.Name = "panel1";
-            this.tableLayoutPanel1.SetRowSpan(this.panel1, 2);
-            this.panel1.Size = new System.Drawing.Size(710, 95);
-            this.panel1.TabIndex = 8;
             // 
             // btnLimpiar
             // 
@@ -190,18 +179,6 @@
             this.panel2.Size = new System.Drawing.Size(710, 71);
             this.panel2.TabIndex = 10;
             // 
-            // label4
-            // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.Control;
-            this.label4.Location = new System.Drawing.Point(3, 14);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(432, 40);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Validacion de Número de parte";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -213,15 +190,41 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // label4
+            // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.Control;
+            this.label4.Location = new System.Drawing.Point(3, 14);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(422, 40);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Validacion de Número de parte";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tableLayoutPanel1.SetColumnSpan(this.panel1, 5);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(3, 311);
+            this.panel1.Name = "panel1";
+            this.tableLayoutPanel1.SetRowSpan(this.panel1, 2);
+            this.panel1.Size = new System.Drawing.Size(710, 95);
+            this.panel1.TabIndex = 8;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(716, 409);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Validar Número de parte";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

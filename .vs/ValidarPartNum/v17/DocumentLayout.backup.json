@@ -3,12 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A784A87-2F78-42A0-9E46-0FF951396597}|ValidarPartNum\\ValidarPartNum.csproj|c:\\users\\juanh25\\source\\repos\\runcard\\validarpartnum\\validarpartnum\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A784A87-2F78-42A0-9E46-0FF951396597}|ValidarPartNum\\ValidarPartNum.csproj|solutionrelative:validarpartnum\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ValidarPartNum||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A784A87-2F78-42A0-9E46-0FF951396597}|ValidarPartNum\\ValidarPartNum.csproj|C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\validarpartnum\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4A784A87-2F78-42A0-9E46-0FF951396597}|ValidarPartNum\\ValidarPartNum.csproj|solutionrelative:validarpartnum\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A784A87-2F78-42A0-9E46-0FF951396597}|ValidarPartNum\\ValidarPartNum.csproj|C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\validarpartnum\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4A784A87-2F78-42A0-9E46-0FF951396597}|ValidarPartNum\\ValidarPartNum.csproj|solutionrelative:validarpartnum\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A784A87-2F78-42A0-9E46-0FF951396597}|ValidarPartNum\\ValidarPartNum.csproj|c:\\users\\juanh25\\source\\repos\\runcard\\validarpartnum\\validarpartnum\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A784A87-2F78-42A0-9E46-0FF951396597}|ValidarPartNum\\ValidarPartNum.csproj|solutionrelative:validarpartnum\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A784A87-2F78-42A0-9E46-0FF951396597}|ValidarPartNum\\ValidarPartNum.csproj|C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\validarpartnum\\controlador\\ctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,16 +38,15 @@
       "RelativeMoniker": "D:0:0:{4A784A87-2F78-42A0-9E46-0FF951396597}|ValidarPartNum\\ValidarPartNum.csproj|solutionrelative:validarpartnum\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A784A87-2F78-42A0-9E46-0FF951396597}|ValidarPartNum\\ValidarPartNum.csproj|C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\validarpartnum\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4A784A87-2F78-42A0-9E46-0FF951396597}|ValidarPartNum\\ValidarPartNum.csproj|solutionrelative:validarpartnum\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A784A87-2F78-42A0-9E46-0FF951396597}|ValidarPartNum\\ValidarPartNum.csproj|C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\validarpartnum\\db\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A784A87-2F78-42A0-9E46-0FF951396597}|ValidarPartNum\\ValidarPartNum.csproj|solutionrelative:validarpartnum\\db\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A784A87-2F78-42A0-9E46-0FF951396597}|ValidarPartNum\\ValidarPartNum.csproj|C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\validarpartnum\\modelo\\validardao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A784A87-2F78-42A0-9E46-0FF951396597}|ValidarPartNum\\ValidarPartNum.csproj|solutionrelative:validarpartnum\\modelo\\validardao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A784A87-2F78-42A0-9E46-0FF951396597}|ValidarPartNum\\ValidarPartNum.csproj|c:\\users\\juanh25\\source\\repos\\runcard\\validarpartnum\\validarpartnum\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|cc4014f5-b18d-439c-9352-f99d984cca85"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +56,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +68,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "ValidarPartNum",
+              "DocumentMoniker": "C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\ValidarPartNum\\ValidarPartNum.csproj",
+              "RelativeDocumentMoniker": "ValidarPartNum\\ValidarPartNum.csproj",
+              "ToolTip": "C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\ValidarPartNum\\ValidarPartNum.csproj",
+              "RelativeToolTip": "ValidarPartNum\\ValidarPartNum.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-27T19:53:27.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Mensaje.cs",
               "DocumentMoniker": "C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\ValidarPartNum\\Mensaje.cs",
               "RelativeDocumentMoniker": "ValidarPartNum\\Mensaje.cs",
@@ -70,22 +88,24 @@
               "RelativeToolTip": "ValidarPartNum\\Mensaje.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T15:57:05.106Z"
+              "WhenOpened": "2025-03-26T15:57:05.106Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Mensaje.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\ValidarPartNum\\Mensaje.cs",
               "RelativeDocumentMoniker": "ValidarPartNum\\Mensaje.cs",
               "ToolTip": "C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\ValidarPartNum\\Mensaje.cs [Dise\u00F1o]",
               "RelativeToolTip": "ValidarPartNum\\Mensaje.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T15:50:00.312Z"
+              "WhenOpened": "2025-03-26T15:50:00.312Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ValidarDAO.cs",
               "DocumentMoniker": "C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\ValidarPartNum\\Modelo\\ValidarDAO.cs",
               "RelativeDocumentMoniker": "ValidarPartNum\\Modelo\\ValidarDAO.cs",
@@ -97,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "obtenerWO.cs",
               "DocumentMoniker": "C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\ValidarPartNum\\Modelo\\obtenerWO.cs",
               "RelativeDocumentMoniker": "ValidarPartNum\\Modelo\\obtenerWO.cs",
@@ -109,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ObtenerNumParte.cs",
               "DocumentMoniker": "C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\ValidarPartNum\\Modelo\\ObtenerNumParte.cs",
               "RelativeDocumentMoniker": "ValidarPartNum\\Modelo\\ObtenerNumParte.cs",
@@ -121,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Ctrl.cs",
               "DocumentMoniker": "C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\ValidarPartNum\\Controlador\\Ctrl.cs",
               "RelativeDocumentMoniker": "ValidarPartNum\\Controlador\\Ctrl.cs",
@@ -133,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Conexion.cs",
               "DocumentMoniker": "C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\ValidarPartNum\\DB\\Conexion.cs",
               "RelativeDocumentMoniker": "ValidarPartNum\\DB\\Conexion.cs",
@@ -145,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "validacion.cs",
               "DocumentMoniker": "C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\ValidarPartNum\\Modelo\\validacion.cs",
               "RelativeDocumentMoniker": "ValidarPartNum\\Modelo\\validacion.cs",
@@ -157,13 +177,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\ValidarPartNum\\Form1.cs",
               "RelativeDocumentMoniker": "ValidarPartNum\\Form1.cs",
               "ToolTip": "C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\ValidarPartNum\\Form1.cs",
               "RelativeToolTip": "ValidarPartNum\\Form1.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAiwGUAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAwFQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T13:38:38.745Z",
               "EditorCaption": ""
@@ -177,7 +197,8 @@
               "ToolTip": "C:\\Users\\juanh25\\source\\repos\\Runcard\\ValidarPartNum\\ValidarPartNum\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "ValidarPartNum\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T13:36:00.379Z"
+              "WhenOpened": "2025-03-25T13:36:00.379Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

@@ -30,3 +30,7 @@ C:\Users\juanh25\source\repos\Runcard\ValidarPartNum\ValidarPartNum\obj\Debug\Va
 C:\Users\juanh25\source\repos\Runcard\ValidarPartNum\ValidarPartNum\obj\Debug\ValidarPartNum.exe
 C:\Users\juanh25\source\repos\Runcard\ValidarPartNum\ValidarPartNum\obj\Debug\ValidarPartNum.pdb
 C:\Users\juanh25\source\repos\Runcard\ValidarPartNum\ValidarPartNum\obj\Debug\ValidarPartNum.Mensaje.resources
+C:\Users\juanh25\source\repos\Runcard\ValidarPartNum\ValidarPartNum\bin\Debug\ValidarPartNum.exe.manifest
+C:\Users\juanh25\source\repos\Runcard\ValidarPartNum\ValidarPartNum\bin\Debug\ValidarPartNum.application
+C:\Users\juanh25\source\repos\Runcard\ValidarPartNum\ValidarPartNum\obj\Debug\ValidarPartNum.exe.manifest
+C:\Users\juanh25\source\repos\Runcard\ValidarPartNum\ValidarPartNum\obj\Debug\ValidarPartNum.application

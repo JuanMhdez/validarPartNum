@@ -82,6 +82,7 @@ namespace ValidarPartNum
                         {
 
                             cbxPartNum.Enabled = false;
+                            cbxWo.Enabled = true;
 
                         }
                         else
@@ -116,6 +117,7 @@ namespace ValidarPartNum
                 obtenerWO(cbxPartNum.SelectedItem.ToString());
                 limpiarMensaje();
                 cbxPartNum.Enabled = false;
+                cbxWo.Enabled = true;
 
             }
             else
@@ -258,11 +260,12 @@ namespace ValidarPartNum
             cbxPartNum.Text = string.Empty;
             
 
-            cbxWo.Enabled = true;
+            cbxWo.Enabled = false;
             cbxWo.Text = string.Empty;
             cbxWo.Items.Clear();
 
             txtItem.Text = string.Empty;
+            txtItem.Enabled = false;
 
             limpiarMensaje();
 

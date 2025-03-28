@@ -38,6 +38,7 @@ namespace ValidarPartNum
                 foreach(var item in lista)
                 {
                     cbxPartNum.Items.Add(item);
+                    cbxPartNum.Sorted = true;
 
                 }              
             }
@@ -49,11 +50,11 @@ namespace ValidarPartNum
         }
 
 
-        public bool validarNumeroParte()
+        public bool validarNumeroParte(string numeroParte)
         {
             string resultado = string.Empty;
 
-           resultado =  ctrl.validarNumeroPart(cbxPartNum.Text);
+           resultado =  ctrl.validarNumeroPart(numeroParte);
 
             if(resultado == "Good")
             {
@@ -69,11 +70,11 @@ namespace ValidarPartNum
         {
             if(e.KeyCode == Keys.Enter)
             {           
-                if(cbxPartNum.Text != string.Empty)
+                if(cbxPartNum.Text.Trim() != string.Empty)
                 {
 
 
-                    if (validarNumeroParte()) {
+                    if (validarNumeroParte(cbxPartNum.Text.Trim())) {
 
 
                         limpiarMensaje();
@@ -109,16 +110,38 @@ namespace ValidarPartNum
 
         private void cbxPartNum_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(cbxPartNum.Text != string.Empty)
+            if(cbxPartNum.Text.Trim() != string.Empty)
             {
 
+                string numeroParte = cbxPartNum.SelectedItem.ToString();
 
-
-                obtenerWO(cbxPartNum.SelectedItem.ToString());
                 limpiarMensaje();
-                cbxPartNum.Enabled = false;
-                cbxWo.Enabled = true;
 
+                if (validarNumeroParte(numeroParte))
+                {
+
+                    if(obtenerWO(cbxPartNum.Text).Count != 0)
+                    {
+
+                                            
+                        cbxPartNum.Enabled = false;
+                        cbxWo.Enabled = true;
+                    }
+                    else
+                    {
+
+                        cbxPartNum.Enabled = true;
+                        cbxWo.Enabled = false;
+
+                    }
+                    
+
+
+                }
+                else
+                {
+                    mostrarMensaje("El numero de parte no existe", statusMensaje);
+                }
             }
             else
             {
@@ -142,6 +165,8 @@ namespace ValidarPartNum
                 foreach (var item in lista)
                 {
                     cbxWo.Items.Add(item);
+                    cbxWo.Sorted = true;
+                    
                 }
 
             }
@@ -160,11 +185,11 @@ namespace ValidarPartNum
 
             if(e.KeyCode == Keys.Enter)
             {
-                if(cbxPartNum.Text != string.Empty && cbxWo.Text != string.Empty && txtItem.Text != string.Empty)
+                if(cbxPartNum.Text != string.Empty && cbxWo.Text != string.Empty && txtItem.Text.Trim() != string.Empty)
                 {
                     List<string> lista = new List<string>();
 
-                    val = new validacion(cbxPartNum.Text, cbxWo.Text, txtItem.Text);
+                    val = new validacion(cbxPartNum.Text, cbxWo.Text, txtItem.Text.Trim());
 
                     if (ctrl.validarItem(val).Count != 0)
                     {
@@ -174,17 +199,19 @@ namespace ValidarPartNum
                         {
                             statusMensaje = true;
                             mostrarMensaje("Si se encuentra en BOM", statusMensaje);
-
+                            txtItem.Text = string.Empty;
                         }
                         else
                         {
                             mostrarMensaje("No se encontro BOM", statusMensaje = false);
+                            
                         }
 
                     }
                     else
                     {
                         mostrarMensaje("No se encontro BOM", statusMensaje);
+                        txtItem.Text = string.Empty;
                     }
                 }
 
@@ -193,6 +220,7 @@ namespace ValidarPartNum
                     mostrarMensaje("Favor de llenar todos los campos", statusMensaje);
                 }
             }
+            
         }
 
         public void limpiarMensaje()
@@ -241,7 +269,6 @@ namespace ValidarPartNum
             fmensaje.Parent = panel1;
             fmensaje.Size = panel1.ClientSize;
             fmensaje.Show();
-
 
         }
 
